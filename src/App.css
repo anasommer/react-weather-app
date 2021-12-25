@@ -6,4 +6,11 @@
 .App footer {
   font-size: 13px;
   margin: 15px 0;
+  font-weight: 500;
+  overflow-wrap: break-word;
+}
+
+.App a {
+  text-decoration: none;
+  color: #114aa0;
 }
