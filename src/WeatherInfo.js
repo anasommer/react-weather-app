@@ -21,13 +21,6 @@ export default function WeatherInfo(props) {
           <WeatherTemperature celsius={props.data.temperature} />
         </div>
       </div>
-
-      <div className="offset-9 offset-xs-8 col-12">
-        <ul>
-          <li>Humidity: {props.data.humidity}%</li>
-          <li>Wind: {props.data.wind} km/h</li>
-        </ul>
-      </div>
     </div>
   );
 }
