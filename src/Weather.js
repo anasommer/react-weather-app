@@ -23,7 +23,7 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = `3ea6115fe9b400fd4e84271df155a977`;
+    const apiKey = `3efca2a6fb2a33434b74c150f3167bd2`;
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
